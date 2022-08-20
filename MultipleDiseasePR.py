@@ -11,13 +11,13 @@ from streamlit_option_menu import option_menu
 
 #loading the saved models
 #1 - diabetetic model
-diabetes_model = pickle.load(open("rC:\Users\cvtra\Desktop\MultipleDiseaseProject\diabetes_model.sav"))
+diabetes_model = pickle.load(open(r"C:\Users\cvtra\Desktop\MultipleDiseaseProject\diabetes_model.sav"))
 
 #2 - heart disease model
-Heart_Disease_model = pickle.load(open("rC:\Users\cvtra\Desktop\MultipleDiseaseProject\heart_disease_model (1).sav"))
+Heart_Disease_model = pickle.load(open(r"C:\Users\cvtra\Desktop\MultipleDiseaseProject\heart_disease_model (1).sav"))
 
 #3 - parkinson disease model
-Parkinson_Disease_model = pickle.load(open("rC:\Users\cvtra\Desktop\MultipleDiseaseProject\parkinsons_model.sav"))
+Parkinson_Disease_model = pickle.load(open(r"C:\Users\cvtra\Desktop\MultipleDiseaseProject\parkinsons_model.sav"))
 
 
 #sidebar for navigation
